@@ -1,0 +1,5 @@
+1) HAML is a language that is used to create XHTML without actually programming XHTML. The primary advantage is that it allows programmers to more easily create XHTML code. One major disadvantage is that it can be very picky about indentation.
+
+2) Cucumber can test the same things as CLI testing but is capable of automating the testing process making it easier to carry out a large number of tests more quickly than would be possible using the CLI.
+
+3) For small web applications it would probably be more effective to manually carry out tests as oposed to using CLI, however on larger web applications where many tests need to be performed it would be more effective to use cucumber rather than carrying out hundreds of tests whenever the program is changed.
