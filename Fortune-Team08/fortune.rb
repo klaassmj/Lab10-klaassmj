@@ -7,6 +7,10 @@ class Fortune < Sinatra::Base
 		@fortune = $fortunes[rand($fortunes.size)]
 		haml :fortune
 	end
+	get '/fortune/get/:fid' do
+		@fortune = $fortunes[params[:fid].to_i]
+		haml :fortune
+	end
 end
 
 require 'fortunedata'
