@@ -9,7 +9,7 @@ class Fortune < Sinatra::Base
 	end
 	get '/fortune/get/:fid' do
 		@ifortune = $fortunes[params[:fid].to_i]
-		haml :ifortune
+		haml :fortune
 	end
 end
 
