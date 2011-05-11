@@ -4,7 +4,7 @@ Then /^I should see a fortune$/ do
 end
 
 Then /^I should see the fortune with index$/ do
-	fortune = page.find(".fortune")
-	fortune.text.should match /^\n.*\n\s*$/
+	ifortune = page.find(".ifortune")
+	ifortune.text.should match /^\n.*\n\s*$/
 end
 

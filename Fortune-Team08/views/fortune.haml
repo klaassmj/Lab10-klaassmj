@@ -10,3 +10,7 @@
 		%form{:action => "", :method => "get"}
 			%input{:type => "submit", :id => "new_fortune", :value => "New Fortune"}
 
+		-if(@ifortune)
+			.ifortune
+				= @ifortune
+
